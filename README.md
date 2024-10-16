@@ -2,11 +2,11 @@
 To generate and verify a Message Authentication Code (MAC) for ensuring the integrity and authenticity of a message using a simple XOR operation.
 
 ## ALGORITHM:
-1.Input a secret key and a message from the user.
-2.Generate the MAC by applying a simple XOR operation between the secret key and the message.
-3.The MAC is computed by repeating the key or message as necessary.
-4.The user can input a received MAC, and the program verifies whether the received MAC matches the computed MAC.
-5.The authenticity of the message is confirmed if the MACs match.
+1.Input a secret key and a message from the user.<br>
+2.Generate the MAC by applying a simple XOR operation between the secret key and the message.<br>
+3.The MAC is computed by repeating the key or message as necessary.<br>
+4.The user can input a received MAC, and the program verifies whether the received MAC matches the computed MAC.<br>
+5.The authenticity of the message is confirmed if the MACs match.<br>
 ## PROGRAM:
 ```C
 #include <stdio.h>
